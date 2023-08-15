@@ -1,6 +1,6 @@
 ## Jogo da forca ##
 import random
-palavras = ["flex-das-estrelas", "nidalee", "vayne", "ezreal", "thresh"]
+palavras = ["flex-das-estrelas", "nidalee", "vayne", "ezreal", "minions", "selva", "atirador", "meio", "suporte", "topo", "dragao", "baron", "yasuo", "yone", "ashe", "torre"]
 palavra = random.choice(palavras)
 letras = []
 chances = 5
@@ -12,6 +12,8 @@ print("Terá que arriscar uma letra por vez")
 print("Tendo 5 chances, caso você acerte mostrará a letra, se errar perde uma chance")
 print("As chances estarão visíveis no jogo")
 print("Todas as palavras são voltadas ao jogo League of Legends")
+
+
 
 while True:
     for letra in palavra:
